@@ -1,0 +1,68 @@
+@media screen and (max-width: 600px) {
+    /* Enlarge the button backgrounds when screen is smallest */
+    #question-list li {
+        width: 50%;
+    }
+  }
+
+html {
+    font-family: 'Creepster', cursive;
+}
+
+body {
+    background-image: url(https://halloweendailynews.com/wp-content/uploads/2020/08/Scream-Ghostface-2022.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-container {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+
+nav li a {
+    color: white !important;
+}
+
+#question {
+    text-align: center;
+    font-size: 100px;
+    color: red;
+}
+#question-list {
+    text-align: center;
+    font-size: 50px;
+}
+
+
+#choices {
+    text-align: center;
+    font-size: 50px;
+}
+.main-area {
+    width: 50%;
+    display: block;
+    margin: 40px auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 100px;
+    
+}
+.multicolortext {
+    background-image: linear-gradient(to left, black, red, black, red);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  .customBtn {
+    border: square;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius:10px;
+  }
+
